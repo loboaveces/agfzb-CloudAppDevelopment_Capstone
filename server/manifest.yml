@@ -1,11 +1,11 @@
   applications:
   - name: dealerreiew
     routes:
-      - route: carlos-cars.apic.mybluemix.net
+      - route: carlos-cars.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: dealerreiew-nginx
     routes:
-      - route: carlos-cars.apic.mybluemix.net/static
+      - route: carlos-cars.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
