@@ -9,5 +9,5 @@
 #
 import sys
 
-def main(dict):
-    return { 'message': 'Hello world' }
+def main(params):
+    return {"doc": params['review']}
