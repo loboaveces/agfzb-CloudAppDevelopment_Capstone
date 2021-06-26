@@ -5,8 +5,7 @@ from requests.auth import HTTPBasicAuth
 # import related models here
 from .models import CarDealer, DealerReview
 
-
-# Create a `get_request` to make HTTP GET requests
+# Create a `get_request` to ma ke HTTP GET requests
 # e.g., response = requests.get(url, params=params, headers={'Content-Type': 'application/json'},
 #                                     auth=HTTPBasicAuth('apikey', api_key))
 def get_request(url, **kwargs):

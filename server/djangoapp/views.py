@@ -105,7 +105,7 @@ def get_dealerships(request):
         return render(request, 'djangoapp/index.html', context)
 
 
-# Create a `get_dealer_details` view to render the reviews of a dealer
+# Create a `get_dealer_details` view to rende  r the reviews of a dealer
 def get_dealer_details(request, dealer_id):
     if request.method == "GET":
         url_ds = f"https://7d276167.us-south.apigw.appdomain.cloud/api/dealership?dealerId={dealer_id}"
