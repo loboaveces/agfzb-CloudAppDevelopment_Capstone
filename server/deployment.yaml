@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - image: us.icr.io/g8ja/dealership:latest
-        imagePullPolicy: Always
+        imagePullPolicy: Always 
         name: dealership
         ports:
         - containerPort: 8000
