@@ -8,7 +8,7 @@ RUN apt-get update \
 
 ENV APP=/app
 
-# Change the workdir.
+# Change the workdir
 WORKDIR $APP
 
 # Install the requirements
